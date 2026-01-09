@@ -1,6 +1,7 @@
 *{
     margin:0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -8,4 +9,269 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   }
+
+  .navbar{
+    width: 1360px;
+    height: 92px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  .mr_menu ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+   .mr_menu ul a{
+    padding: 0 32px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+  }
+
+.button_top p {
+	font-size: 14px;
+	display: block;
+	padding: 10px;
+	background-color: #30B868;
+	color: #fff;
+	border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn {
+	font-size: 14px;
+	background-color: #30B868;
+	color: #fff;
+	border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    
+
+}
+
+.btn2 {
+	font-size: 14px;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	padding: 10px 20px;
+	background: transparent;
+	color: #fff;
+    cursor: pointer;
+}
+
+.btn-ico {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	padding: 10px 10px;
+	font-size: 16px;
+	cursor: pointer;
+	background-color: #30B868;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	margin-right: 5px;
+}
+
+.btn-ico2{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background: transparent;
+    color: #fff;
+    border:none;
+    border-radius: 5px;
+    border:1px solid #fff;
+}
+
+.btn-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.btn-top {
+	background-color: #fff;
+	color: #30B868;
+	font-size: 14px;
+	padding: 10px 20px;
+	border-radius: 35px;
+    cursor: pointer;
+}
+
+
+
+.banner{
+    width:100%;
+    height:674px;
+    background-image: url(../images/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   
+}
+
+.container {
+    width: 1360px;
+    height:auto;
+    margin:0 auto;
+    text-align: center;
+    padding: 120px;
+}
+.wrapper{
+    width: 770px;
+    margin: 0 auto;
+    color: #fff;
+    align-items: center;
+}
+
+.container h2 {
+    font-weight: bold;
+    font-size: 66px;
+   }
+
+.mr_green{
+    color: #30B868;
+}
+
+.hero-text{
+    padding:20px 0;
+    line-height: 2em;
+    font-size: 20px;
+}
+
+.wrapper2{
+    width: 770px;
+    height: 153px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 60px;
+    
+}
+
+.wrapper2 p{
+    padding-top: 5px;
+    color: rgb(26, 26, 26);
+    
+}
+
+.wrapper2 h2 {
+	font-size: 52px;
+	margin-bottom: 15px;
+}
+
+.card-holder {
+	display: flex;
+	gap: 10px;
+	width: 1360px;
+	height: 300px;
+	justify-content: space-between;
+	margin: 0px auto;
+	padding-top: 59px;
+}
+
+.card1 {
+	text-align: center;
+	width: 322px;
+	padding: 60px 10px;
+	box-shadow: 5px 5px 10px rgba(104, 104, 104, 0.1);
+}
+
+.card1 p{
+    color: #3b3b3b;
+}
+
+
+
+
+.card1 h3 {
+	font-weight: 500;
+	padding: 10px 10px;
+}
+
+ 
+.icon-circle {
+  width: 50px;                  
+  height: 50px;
+  background-color:#F95555;
+  border-radius: 50%;        
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin:0 auto;
+ 
+}
+
+.icon-circle img {
+  width: 24px;               
+  height: 24px;
+  
+}
+
+.wrapper4 {
+	display: flex;
+	width: 1360px;
+	margin: 0 auto;
+	padding-top: 90px;
+	gap: 80px;
+}
+
+
+.solution{
+    color: #30B868;
+}
+
+.brain_txt{
+    padding-top: 100px;
+}
+
+.brain_txt h2{
+    font-size: 44px;;
+    padding-bottom: 10px;
+}
+
+
+
+.brain_txt p {
+	padding-right: 180px;
+    font-weight: 300;
+    font-size: 14px;
+    color:rgb(58, 58, 58)
+}
+
+.solution_p{
+    line-height: 1.5em;
+}
+
+
+
+.tick {
+	padding-top: 10px;
+}
+
+
+.tick p {
+  display: flex;
+  align-items: center;     /* vertical alignment */
+  gap: 10px;               /* space between image & text */
+  margin: 8px 0;
+}
+
+.tick img {
+  width: 17px;
+  height: 17px;
+  flex-shrink: 0;          /* prevents image from shrinking */
+}
+
+.tick p {
+	line-height: 2em;
+}
