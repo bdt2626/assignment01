@@ -326,6 +326,39 @@
 
 
 .footer_part{
+    display: flex;
+    justify-content: space-between;
     background-color:#001931;
+    width: 1360px;
     height: 348px;
+    margin: 0 auto;
+    color:#fff;
+    align-items: center;
 }
+
+.social_img img{
+    width:100px;
+    height:22px;
+    margin-bottom: -21px;
+    padding-right: 10px;
+}
+
+.social_img {
+        padding-right: 100px;
+}
+
+
+.copyright{
+    width: 1360px;
+    margin: 0 auto;
+    color:#fff;
+    background-color: #001931;
+    text-align: center;
+    }
+
+   .copyright p{
+    font-size: 12px;
+    padding-bottom: 10px;
+    border-top: 2px solid #053869;
+    padding-top: 20px;
+    }
