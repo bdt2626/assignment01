@@ -261,17 +261,66 @@
 
 .tick p {
   display: flex;
-  align-items: center;     /* vertical alignment */
-  gap: 10px;               /* space between image & text */
+  align-items: center;    
+  gap: 10px;               
   margin: 8px 0;
 }
 
 .tick img {
   width: 17px;
   height: 17px;
-  flex-shrink: 0;          /* prevents image from shrinking */
+  flex-shrink: 0;         
 }
 
 .tick p {
 	line-height: 2em;
 }
+
+
+.wrapper5 {
+	width: 1360px;
+    height: 385px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #F7F6F2;
+	margin-top: 80px;
+	padding-top: 55px;
+}
+
+
+.wrapper5 h2{
+	padding-bottom: 20px;
+}
+
+
+.wrapper5 p {
+	padding: 0px 418px;
+	font-size: 14px;
+	color: #3b3b3b;
+	margin-bottom: 40px;
+	margin-bottom: 80px;
+}
+
+
+.btn5 {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	padding: 10px 20px;
+	font-size: 12px;
+	cursor: pointer;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	background-color: #30B868;
+	border-radius: 5px;
+	cursor: pointer;
+	border: none;
+	margin-bottom: 20px;
+}
+
+.btn-icon {
+  width: 16px;
+  height: 16px;
+}
+
